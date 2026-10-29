@@ -1,0 +1,29 @@
+# Dependencies & Build outputs
+node_modules/
+.next/
+out/
+coverage/
+build/
+dist/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Runtime local data store
+data/
+
+# TypeScript & Next generated files
+*.tsbuildinfo
+next-env.d.ts
+
+# OS & Sandbox home dotfiles
+.config/
+.npm/
+.cache/
+.local/
+.arena/
+.bash*
+.profile
+.DS_Store
